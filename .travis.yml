@@ -1,0 +1,13 @@
+sudo: false
+
+language: php
+
+matrix:
+  include:
+    - php: 7.1
+
+script:
+  - touch .travis.yml
+
+notifications:
+  email: false
